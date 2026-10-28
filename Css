@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(
+    135deg,
+    #160c2c,
+    #32145b,
+    #064e3b
+  );
+}
+
+.giveaway-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 30px 24px;
+  text-align: center;
+  border: 1px solid #7156a5;
+  border-radius: 24px;
+  background: rgba(20, 15, 40, 0.96);
+  box-shadow: 0 20px 60px #0005;
+}
+
+.demo-label {
+  color: #86efac;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.sol-logo {
+  display: grid;
+  place-items: center;
+  width: 70px;
